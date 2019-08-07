@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+/*
+html{
+  scroll-behavior:smooth;
+}*/
+body {
+  font-family: 'Questrial', sans-serif;
+  background-color: #668586;
+  font-size: 4em;
+  color: white;
+}
+a {
+  color: inherit;
+  font-family: inherit;
+}
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+#about{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 10%
+  margin-top: 0px;
+  background: #668586;
+  display: inline-block;
+}
+#projects {
+  position: relative;
+  background: #82AEB1;
+  width: 100%;
+  height: 100vh;
+}
+#interests {
+  position: relative;
+  background: #A7ACD9;
+  width: 100%;
+  height: 100vh;
+}
+#experience {
+  position: relative;
+  background: #9E8FB2;
+  width: 100%;
+  height: 100vh;
+}
+
+/* NAVIGATION */
+.nav {
+  float: right;
+  padding: 1% 2% 0% 0%;
+  display: block;
+  font-size: 30%;
+}
+.nav ul {
+  list-style:none;
+  display: block;
+  padding: 5%;
+}
+.nav li{
+  font-weight: 700;
+  display: block;
+}
+.nav li a:hover {
+  color: #82AEB1;
+}
+
+/* FADE ON HOVER */
+.fadelink {
+  transition: color 0.3s linear;
+  -webkit-transition: color 0.3s linear;
+  -moz-transition: color 0.3s linear;
+}
+.fadelink:hover {
+  color: #82AEB1;
+}
+
+/* TOP PAGE */
+.heading {
+  text-align: center;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 1;
+  text-decoration: none;
+}
+.subheading {
+  font-size: 30%;
+  padding-top: 1%;
+  text-align: center;
+}
+.socials{
+  text-align: center;
+  line-height: 1;
+}
+.initials{
+  padding: 0% 0% 0% 2%;
+  font-size: 100%;
+  font-weight: 700;
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+}
+.content {
+  padding-top: 10%; /* Smaller screens 15%*/
+  padding-bottom: 10%;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  transition: all 0.25s cubic-bezier(.53,.01,.35,1.5);
+  filter: brightness(0) invert(1);
+}
+.icon:hover{
+  width: 35px;
+  height: 35px;
+}

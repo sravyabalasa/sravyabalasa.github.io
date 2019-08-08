@@ -4,7 +4,7 @@ html{
 }
 body {
   font-family: 'Josefin Sans', sans-serif;
-  background-color: #502E5B;
+  background-color: #461120;
   font-size: 4em;
   color: white;
 }
@@ -61,11 +61,10 @@ a:hover {
   padding: 5%;
 }
 .nav li{
-  t: 700;
   display: block;
 }
 .nav li a:hover {
-  color: #82AEB1;
+  color: #8C2F39;
 }
 
 /* FADE ON HOVER */
@@ -75,15 +74,16 @@ a:hover {
   -moz-transition: color 0.3s linear;
 }
 .fadelink:hover {
-  color: #82AEB1;
+  color: #B23A48;
 }
 
 /* TOP PAGE */
 #about .content {
   padding-top: 10%; /* Smaller screens 15%*/
   padding-bottom: 10%;
-  padding-right: 10%;
-  padding-left: 10%;
+  position: relative;
+  top: 35%;
+  transform: translateY(-50%);
 }
 .heading {
   text-align: center;

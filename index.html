@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+
+<!--
+  TODO:
+  - Smooth scrolling (JS)
+  - Finish all the other pages
+  - Smaller text heading for smaller screen
+-->
+
 <html lang="en">
   <head>
     <title>Sravya Balasa</title>
@@ -9,33 +17,23 @@
     <!---STYLE--------->
     <link rel="stylesheet" href="style/css/bootstrap.min.css">
     <link rel="stylesheet" href="style/css/my-style.css">
-
   </head>
 
-  <!-- jQuery import -->
-  <script
-    src="https://code.jquery.com/jquery-3.4.1.js"
-    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-    crossorigin="anonymous">
-  </script>
-  <!-- Smooth Scroll -->
-  <script src="style/js/smooth-scroll.js"></script>
-  <script src="style/js/bootstrap.min.js"></script>
-
   <body>
+
+    <div class="nav">
+      <ul>
+        <li><a href="#about" class="fadelink">about</a></li>
+        <li><a href="#projects" class="fadelink">projects</a></li>
+        <li><a href="#experience" class="fadelink">experience</a></li>
+        <li><a href="#interests" class="fadelink">interests</a></li>
+      </ul>
+    </div>
+
     <div id="about" id="fadein">
 
       <div class="initials">
-        <a href="index.html"><img class="logo" src="img/logo.png"></a>
-      </div>
-
-      <div class="nav">
-        <ul>
-          <li><a href="#about" class="fadelink">about</a></li>
-          <li><a href="#projects" class="fadelink">projects</a></li>
-          <li><a href="#interests" class="fadelink">interests</a></li>
-          <li><a href="#experience" class="fadelink">experience</a></li>
-        </ul>
+        <a href="#about"><img class="logo" src="img/logo.png"></a>
       </div>
 
       <div class=content>
@@ -78,6 +76,10 @@
         </div>
     </div>
 
+    <div id="experience">
+      <div>EXPERI - TODO</div>
+    </div>
+
     <div id="interests" class="row">
       <div class="col-lg-6">
         <img width=100% src="img/instagramfeed.jpg">
@@ -87,11 +89,18 @@
       </div>
     </div>
 
-    <div id="experience">
-      <div>EXPERIENCE - TODO</div>
-    </div>
-
 
     <!--BACK TO THE TOP-->
   </body>
+
+  <!-- jQuery import -->
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous">
+  </script>
+  <!-- Smooth Scroll -->
+  <script src="style/js/smooth-scroll.js"></script>
+  <script src="style/js/bootstrap.min.js"></script>
+
 </html>

@@ -10,17 +10,17 @@ function fadeHome() {
   var y = document.getElementsByClassName("subheading")[0];
   var z = document.getElementsByClassName("socials")[0];
 
-  $(x).fadeTo(30,1);
-  $(y).fadeTo(30,1);
-  $(z).fadeTo(30,1,fadeTop);
+  $(x).fadeTo(3000,1);
+  $(y).fadeTo(3000,1);
+  $(z).fadeTo(3000,1,fadeTop);
 }
 
 function fadeTop() {
   var x = document.getElementsByClassName("nav")[0];
   var y = document.getElementsByClassName("initials")[0];
 
-  $(x).animate({opacity: 1}, 60);
-  $(y).animate({opacity: 1}, 60);
+  $(x).animate({opacity: 1}, 600);
+  $(y).animate({opacity: 1}, 600);
 }
 
 /* CREDIT: https://www.taniarascia.com/smooth-scroll-to-id-with-jquery/ */

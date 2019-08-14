@@ -175,6 +175,7 @@ a:hover {
   font-weight: 100;
   line-height: 1;
   padding-top: 2%;
+  padding-bottom: 10%;
   text-align: center;
 }
 .row {
@@ -183,4 +184,41 @@ a:hover {
 }
 .name {
   position: relative;
+}
+
+/* */
+.titleexp {
+  font-size:15px;
+  font-weight: 500;
+  text-align: left;
+  padding-top: 80px;
+  line-height: 1;
+}
+.titleexptop {
+  padding-top: 0%;
+}
+.yearsexp {
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 1;
+  padding-top: 1%;
+  text-align: left;
+}
+.company {
+  display: inline-block;
+  font-weight: 100;
+  font-size: 15px;
+  float: right;
+  bottom: 0;
+}
+.descriptionexp {
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 1.5;
+  padding-top: 3%;
+  text-align: left;
+}
+.col-centered{
+  float: none;
+  margin: 0 auto;
 }

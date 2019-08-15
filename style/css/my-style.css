@@ -22,7 +22,7 @@ a:hover {
 }
 
 /* Sections */
-#about{
+#top{
   position: relative;
   width: 100%;
   height: 100vh;
@@ -31,29 +31,32 @@ a:hover {
   display: inline-block;
   z-index: 1;
 }
-#projects, #interests, #experience {
+#projects, #interests, #experience, #about {
   height: auto !important;
   position: relative;
   width: 100%
 }
 #projects {
   background-color: #8C2F39;
-  width: 100%;
   padding-top: 10%;
   padding-left: 5%;
   padding-right: 10%;
   padding-bottom: 20%;
 }
-#interests {
-  width: 100%;
-  padding-top: 2%;
-  background-color: #8C2F39;
-}
 #experience {
-  width: 100%;
   padding-top: 150px;
   padding-right: 6%;
   padding-left: 6%;
+  padding-bottom: 150px;
+}
+#interests {
+  background-color: #8C2F39;
+  padding-top: 120px;
+  padding-bottom: 150px;
+}
+#about {
+  padding-left: 12%;
+  padding-top: 200px;
   padding-bottom: 150px;
 }
 
@@ -91,8 +94,8 @@ a:hover {
 }
 
 /* TOP PAGE */
-#about .content {
-  padding-top: 10%; /* Smaller screens 15%*/
+#top .content {
+  padding-top: 10%;
   padding-bottom: 10%;
   position: relative;
   top: 50%;
@@ -107,8 +110,8 @@ a:hover {
   text-decoration: none;
 }
 .subheading {
-  font-size: 30%;
   font-weight: 200;
+  font-size: 20px;
   padding-top: 1%;
   text-align: center;
 }
@@ -147,7 +150,13 @@ a:hover {
   height: 35px;
 }
 
-/* EXPERIENCE */
+
+.row {
+  margin: 0;
+  padding: 10% 5% 10% 5%;
+}
+
+/* PROJECTS */
 .projectimg {
   margin-left: auto;
   margin-right: auto;
@@ -168,7 +177,7 @@ a:hover {
   opacity: 1.0;
   filter: alpha(opacity=100);
 }
-.title {
+.titleproj {
   font-size:30px;
   font-weight: 500;
   text-align: center;
@@ -176,22 +185,18 @@ a:hover {
   line-height: 1;
   letter-spacing: 5px;
 }
-.description {
+.descriptionproj {
   font-size: 15px;
   font-weight: 100;
   line-height: 1;
   padding-top: 2%;
   text-align: center;
 }
-.row {
-  margin: 0;
-  padding: 10% 5% 10% 5%;
-}
 .name {
   position: relative;
 }
 
-/* */
+/* EXPERIENCE */
 .titleexp {
   font-size:15px;
   font-weight: 500;
@@ -209,19 +214,19 @@ a:hover {
   padding-top: 1%;
   text-align: left;
 }
-.company {
-  display: inline-block;
-  font-weight: 100;
-  font-size: 15px;
-  float: right;
-  bottom: 0;
-}
 .descriptionexp {
   font-size: 15px;
   font-weight: 100;
   line-height: 1.5;
   padding-top: 3%;
   text-align: left;
+}
+.company {
+  display: inline-block;
+  font-weight: 100;
+  font-size: 15px;
+  float: right;
+  bottom: 0;
 }
 .col-centered{
   float: none;
@@ -235,7 +240,28 @@ a:hover {
 }
 
 /* INTERESTS */
-.instagramimg {
+.titleint {
+  font-size:30px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10px;
+  line-height: 1;
+  letter-spacing: 5px;
+}
+.descriptionint {
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 1.5;
+  padding-top: 3%;
+  padding-bottom: 6%;
+  text-align: left;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.interestsimg {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -250,32 +276,30 @@ a:hover {
   -moz-transition: opacity .55s ease-in-out;
   -webkit-transition: opacity .55s ease-in-out;
 }
-.instagramimg:hover {
+.interestsimg:hover {
   opacity: 0.5;
-}
-.titleint {
-  font-size:30px;
-  font-weight: 500;
-  text-align: center;
-  padding-top: 15%;
-  padding-bottom: 10px;
-  line-height: 1;
-  letter-spacing: 5px;
-}
-.descriptionint {
-  font-size: 15px;
-  font-weight: 100;
-  line-height: 1.5;
-  padding-top: 3%;
-  text-align: left;
-  width: 80%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 #interests a {
   text-decoration: underline;
 }
 #interests a:hover {
   text-decoration: none;
+}
+
+/* ABOUT */
+.titleabt {
+  font-size:35px;
+  font-weight: 500;
+  text-align: left;
+  line-height: 1;
+  letter-spacing: 5px;
+}
+.descriptionabt {
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 1.5;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  text-align: left;
+  width: 80%;
 }

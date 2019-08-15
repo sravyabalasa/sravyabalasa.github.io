@@ -46,9 +46,15 @@ a:hover {
 }
 #interests {
   width: 100%;
+  padding-top: 2%;
+  background-color: #8C2F39;
 }
 #experience {
   width: 100%;
+  padding-top: 150px;
+  padding-right: 6%;
+  padding-left: 6%;
+  padding-bottom: 150px;
 }
 
 /* NAVIGATION */
@@ -175,7 +181,6 @@ a:hover {
   font-weight: 100;
   line-height: 1;
   padding-top: 2%;
-  padding-bottom: 10%;
   text-align: center;
 }
 .row {
@@ -221,4 +226,56 @@ a:hover {
 .col-centered{
   float: none;
   margin: 0 auto;
+}
+#experience a {
+  text-decoration: underline;
+}
+#experience a:hover {
+  text-decoration: none;
+}
+
+/* INTERESTS */
+.instagramimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  width: 80%;
+  box-shadow: 4px 4px 7px #461120;
+  opacity: 0.9;
+  filter: alpha(opacity=40);
+  transition: opacity .55s ease-in-out;
+  -moz-transition: opacity .55s ease-in-out;
+  -webkit-transition: opacity .55s ease-in-out;
+}
+.instagramimg:hover {
+  opacity: 0.5;
+}
+.titleint {
+  font-size:30px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 15%;
+  padding-bottom: 10px;
+  line-height: 1;
+  letter-spacing: 5px;
+}
+.descriptionint {
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 1.5;
+  padding-top: 3%;
+  text-align: left;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#interests a {
+  text-decoration: underline;
+}
+#interests a:hover {
+  text-decoration: none;
 }

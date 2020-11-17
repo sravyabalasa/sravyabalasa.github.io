@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i&display=swap');
 body {
   font-family: 'Josefin Sans', sans-serif;
-  background-color: #461120;
+  background-color: #354F52;
   font-size: 6em;
   color: white;
 }
@@ -36,7 +36,7 @@ a:hover {
   width: 100%
 }
 #projects {
-  background-color: #8C2F39;
+  background-color: #52796F;
   padding-top: 10%;
   padding-left: 5%;
   padding-right: 10%;
@@ -49,7 +49,7 @@ a:hover {
   padding-bottom: 200px;
 }
 #interests {
-  background-color: #8C2F39;
+  background-color: #52796F;
   padding-top: 120px;
   padding-right: 8%;
   padding-left: 8%;
@@ -81,7 +81,7 @@ a:hover {
   display: block;
 }
 .nav li a:hover {
-  color: #8C2F39;
+  color: #2F3E46;
 }
 
 /* FADE ON HOVER */
@@ -91,7 +91,7 @@ a:hover {
   -moz-transition: color 0.3s linear;
 }
 .fadelink:hover {
-  color: #B23A48;
+  color: #52796F;
 }
 
 /* TOP PAGE */
@@ -166,7 +166,7 @@ a:hover {
   margin-bottom: 10px;
   display: block;
   width: 90%;
-  box-shadow: 4px 4px 7px #461120;
+  box-shadow: 4px 4px 7px #354F52;
   opacity: 0.5;
   filter: alpha(opacity=40);
   transition: opacity .55s ease-in-out;
@@ -261,7 +261,7 @@ a:hover {
   margin-bottom: 10px;
   display: block;
   width: 80%;
-  box-shadow: 4px 4px 7px #461120;
+  box-shadow: 4px 4px 7px #354F52;
   opacity: 0.9;
   filter: alpha(opacity=40);
   transition: opacity .55s ease-in-out;

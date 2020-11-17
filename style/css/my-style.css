@@ -2,7 +2,7 @@
 body {
   font-family: 'Josefin Sans', sans-serif;
   background-color: #461120;
-  font-size: 4em;
+  font-size: 6em;
   color: white;
 }
 
@@ -26,7 +26,6 @@ a:hover {
   position: relative;
   width: 100%;
   height: 100vh;
-  padding: 10%
   margin-top: 0px;
   display: inline-block;
   z-index: 1;
@@ -44,14 +43,16 @@ a:hover {
   padding-bottom: 20%;
 }
 #experience {
-  padding-top: 150px;
-  padding-right: 6%;
-  padding-left: 6%;
-  padding-bottom: 150px;
+  padding-top: 200px;
+  padding-right: 12%;
+  padding-left: 12%;
+  padding-bottom: 200px;
 }
 #interests {
   background-color: #8C2F39;
   padding-top: 120px;
+  padding-right: 8%;
+  padding-left: 8%;
   padding-bottom: 150px;
 }
 #about {
@@ -67,7 +68,7 @@ a:hover {
   right:0;
   padding: 15px 20px 0px 10px;
   display: block;
-  font-size: 22%;
+  font-size: 20px;
   font-weight: 100;
   z-index: 2;
 }
@@ -111,8 +112,8 @@ a:hover {
 }
 .subheading {
   font-weight: 200;
-  font-size: 20px;
-  padding-top: 1%;
+  font-size: 25px;
+  padding-top: 0.5%;
   text-align: center;
 }
 .socials{
@@ -153,9 +154,10 @@ a:hover {
 
 .row {
   margin: 0;
-  padding: 10% 5% 10% 5%;
 }
-
+.col-sm-6 {
+  padding: 0;
+}
 /* PROJECTS */
 .projectimg {
   margin-left: auto;
@@ -163,8 +165,6 @@ a:hover {
   margin-top: 10px;
   margin-bottom: 10px;
   display: block;
-  /*width: 243px;
-  height: 136px;*/
   width: 90%;
   box-shadow: 4px 4px 7px #461120;
   opacity: 0.5;
@@ -186,7 +186,7 @@ a:hover {
   letter-spacing: 5px;
 }
 .descriptionproj {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 100;
   line-height: 1;
   padding-top: 2%;
@@ -198,35 +198,27 @@ a:hover {
 
 /* EXPERIENCE */
 .titleexp {
-  font-size:15px;
+  font-size:20px;
   font-weight: 500;
-  text-align: left;
-  padding-top: 80px;
-  line-height: 1;
 }
-.titleexptop {
-  padding-top: 0%;
+.exptop {
+  padding-top: 10%;
 }
 .yearsexp {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 100;
-  line-height: 1;
-  padding-top: 1%;
-  text-align: left;
+}
+.exp {
+  font-size: 20px;
+  font-weight: 100;
 }
 .descriptionexp {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 100;
-  line-height: 1.5;
   padding-top: 3%;
-  text-align: left;
 }
-.company {
-  display: inline-block;
-  font-weight: 100;
-  font-size: 15px;
-  float: right;
-  bottom: 0;
+.tools {
+  font-weight: 500;
 }
 .col-centered{
   float: none;
@@ -250,7 +242,7 @@ a:hover {
   letter-spacing: 5px;
 }
 .descriptionint {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 100;
   line-height: 1.5;
   padding-top: 3%;
@@ -295,11 +287,17 @@ a:hover {
   letter-spacing: 5px;
 }
 .descriptionabt {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 100;
   line-height: 1.5;
   padding-top: 40px;
   padding-bottom: 30px;
   text-align: left;
   width: 80%;
+}
+
+@media (min-width: 768px) { 
+  .exp {
+    text-align: right;
+  }
 }

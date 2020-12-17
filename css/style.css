@@ -1,0 +1,343 @@
+/* ------------------- HTML ATTRIBUTES ----------------- */
+body {
+	font-family: 'Rubik', sans-serif;
+	background-color: #152238;
+	color: white;
+}
+html {
+	scroll-behavior: smooth;
+}
+section {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+h1 {
+	font-size: 8rem;
+}
+
+h2 {
+	font-size: 5rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+img {
+	object-fit: cover;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+a {
+	/* Same as before */
+	background: linear-gradient(to right, white 50%, #152238 50%);
+	background-size: 230% 100%;
+	background-position: right bottom;
+	transition: all .5s ease-out;
+	color: white !important;
+}
+a:hover {
+	color: #152238 !important;  
+	background-position: 0 100%;
+	cursor: pointer;
+}
+
+/* ------------------- IDS ----------------- */
+#home {
+	position: relative;
+    width: 100%;
+    height: 100vh;
+    margin-top: 0px;
+    display: inline-block;
+	z-index: 1;
+}
+#intro {
+    height: 100vh;
+}
+#experience {
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+/* ------------------- CLASSES ----------------- */
+.logo {
+	position:absolute;
+	z-index: 100;
+	width: 100px;
+	height: 70px;
+	object-fit: fill;
+	opacity: 1.0;
+	left:10px;
+	top:10px;
+	filter: alpha(opacity=100);
+	transition: opacity .55s ease-in-out;
+	-moz-transition: opacity .55s ease-in-out;
+	-webkit-transition: opacity .55s ease-in-out;
+}
+.logo:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=40);
+}
+
+.section-title {
+	padding-bottom: 5%;
+}
+.content {
+  	position: relative;
+  	top: 45%;
+  	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+
+}
+
+.normal {
+	background-color: #152238;
+	color: white;
+}
+.inverse {
+	background-color: white;
+	color: #152238;
+}
+.bold {
+	font-weight: 600;
+}
+.spacer {
+	padding-right: 5%;
+}
+.job-title {
+	margin-bottom: 5px;
+}
+
+.icons {
+	padding-top:3%;
+}
+.icon {
+	font-size: 2em;
+	cursor: pointer;
+    transition: 0.9s;
+}
+.icon:hover {
+    transition: 0.9s;
+	transform: rotate(-10deg);
+}
+
+.down a {
+	background: none;
+	color: white !important;
+}
+.down a:hover {
+	color: white !important;
+	cursor: pointer;
+}
+.down a:link {
+	color: white;
+}
+.down a:visited {
+	color: white;
+}
+
+.icons a {
+	background: none;
+	color: white !important;
+}
+.icons a:hover {
+	color: white !important;
+	cursor: pointer;
+}
+.icons a:link {
+	color: white;
+}
+.icons a:visited {
+	color: white;
+}
+
+.inverse a{
+	background: linear-gradient(to right, #152238 50%, white 50%);
+	background-size: 230% 100%;
+	background-position: right bottom;
+	transition: all .5s ease-out;
+	color:#152238 !important; 
+}
+.inverse a:hover {
+	color: white !important;  
+	background-position: 0 100%;
+	cursor: pointer;
+}
+.inverse a:link {
+	color:#152238; 
+}
+.inverse a:visited {
+	color:#152238;  
+}
+
+.modal a{
+	background: linear-gradient(to right, #152238 50%, white 50%);
+	background-size: 230% 100%;
+	background-position: right bottom;
+	transition: all .5s ease-out;
+	color:#152238 !important; 
+}
+.modal a:hover {
+	color: white !important;  
+	background-position: 0 100%;
+	cursor: pointer;
+}
+.modal a:link {
+	color:  #152238;
+	text-decoration: underline; 
+}
+.moddal a:visited {
+	color: #152238;
+}
+
+.modal-role {
+	margin-bottom: 0px;
+}
+.modal-datess {
+	font-style: italic;
+}
+.modal {
+	color: #152238;
+}
+.modal-body {
+	padding: 10%;
+}
+
+.center-img {
+	text-align: center;
+	height: 150px;
+    position: relative;
+    line-height:120px;
+}
+
+.fb {
+	width: 7em;
+}
+.tableau {
+	width: 13em;
+}
+.viasat {
+	width: 11em;
+}
+.weibel {
+	width: 11em;
+}
+.almounds {
+	width: 13em;
+}
+.autograder {
+	width: 6em;
+}
+.ersp {
+	width: 12em;
+}
+.cse {
+	width: 5em;
+}
+
+.card {
+	background: white;
+	border-radius: 20px;
+	color: #152238;
+	margin: 20px;
+	padding: 30px;
+	box-shadow:5px 5px 30px #808080;
+	transition: all .5s ease-out;
+}
+.card:hover {
+	box-shadow:0px 0px 0px;
+	cursor: pointer;
+}
+
+.down {
+	position: absolute;
+	top: 90vh;
+	text-align: center;
+	width: 100%;
+	z-index: 100;
+}
+.down .icon:hover {
+	transform: none;
+}
+
+
+/* --------------- MEDIA QUERIES -------------------- */
+@media screen and (max-width:414px) {
+	h1 {
+		font-size: 2rem;
+	}
+	h2 {
+		font-size: 1.5rem;
+	}
+	h3 {
+		font-size: 0.5rem;
+	}
+	.icon {
+		font-size: 1em;
+	}
+	#experience {
+		padding-top: 20%;
+		padding-bottom: 20%;
+	}
+}
+
+@media screen and (min-width:415px) and (max-width:559px) {
+	h1 {
+		font-size: 3rem;
+	}
+	h2 {
+		font-size: 2.5rem;
+	}
+	h3 {
+		font-size: 1rem;
+	}
+	.icon {
+		font-size: 1.5em;
+	}
+	#experience {
+		padding-top: 20%;
+		padding-bottom: 20%;
+	}
+}
+
+@media screen and (min-width:560px) and (max-width:959px) {
+	h1 {
+		font-size: 4rem;
+	}
+	h2 {
+		font-size: 3.5rem;
+	}
+	h3 {
+		font-size: 1rem;
+	}
+	.icon {
+		font-size: 1.5em;
+	}
+	#experience {
+		padding-top: 20%;
+		padding-bottom: 20%;
+	}
+}
+
+@media screen and (min-width:960px) and (max-width:1279px) {
+	h1 {
+		font-size: 6rem;
+	}
+	h2 {
+		font-size: 5rem;
+	}
+	h3 {
+		font-size: 1.5rem;
+	}
+}
+
+/*
+@media screen and (max-width:320px) {}
+@media screen and (min-width:321px) and (max-width:639px) {}
+@media screen and (min-width:640px) and (max-width:959px) {}
+@media screen and (min-width:960px) and (max-width:1279px) {}
+@media screen and (min-width:1280px) and (max-width:1599px) {}
+@media screen and (min-width:1600px) {}
+@media screen and (min-width:1920px) {}
+*/

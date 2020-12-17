@@ -1,166 +1,146 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en">
-  <head>
-    <title>Sravya Balasa</title>
-    <!---METADATA------>
-    <meta name="description" content="Sravya Balasa's Personal Website">
-    <meta name="author" content="Sravya Balasa">
-    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="sravya, balasa, sravyabalasa, UCSD, UC, San, Diego, CS, computer, science, portfolio, personal, photography, design">
-    <!---STYLE--------->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style/css/my-style.css">
-    <!---FAVICON------->
-    <link rel="shortcut icon" type="png" href="img/logo.png"/>
-  </head>
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <body>
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css"> <!-- more specific css-->
+		<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;800&display=swap" rel="stylesheet">
+		<title>Sravya Balasa</title>
 
-    <div class="nav">
-      <ul>
-        <li><a href="#about" class="fadelink">about</a></li>
-        <li><a href="#projects" class="fadelink">projects</a></li>
-        <li><a href="#experience" class="fadelink">experience</a></li>
-        <li><a href="#interests" class="fadelink">interests</a></li>
-        <li><a href="https://drive.google.com/file/d/1v2gi9toz8TFb4uqBe9DrIXfRacOBw1Ho/view?usp=sharing" target=_blank class="fadelink">resume</a></li>
-      </ul>
-    </div>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src="https://kit.fontawesome.com/94394b68a0.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div class="initials">
+			<a href="#home"><img class="logo" src="images/logo.png"></a>
+		</div>
 
-    <div id="top" id="fadein">
+		<div class="down">
+			<a href="#experience"><i class="fa fa-angle-down fa-3x icon" aria-hidden="true"></i></a>
+		</div>
 
-      <div class="initials">
-        <a href="#top"><img class="logo" src="img/logo.png"></a>
-      </div>
+		<section id="home" class="normal">
+			<div class="content">
+				<h3 class="job-title">incoming swe intern @ <a href="https://www.facebook.com/careers/" target="_blank">facebook</a> and <a href="https://www.tableau.com/" target="_blank">tableau</a></h3>
+				<h1 class="bold">sravya balasa</h1>
+				<div class="icons">
+					<a href="https://www.linkedin.com/in/sravyabalasa/" target="_blank"><i class="fa fa-linkedin icon spacer" aria-hidden="true"></i></a>
+					<a href="https://github.com/sravyabalasa" target="_blank"><i class="fa fa-github icon spacer" aria-hidden="true"></i></a>
+					<a href="https://www.instagram.com/photoswithsravya/" target="_blank"><i class="fa fa-instagram icon spacer" aria-hidden="true"></i></a>
+					<a href="https://sbalasa.medium.com/" target="_blank"><i class="fa fa-medium icon spacer" aria-hidden="true"></i></a>
+					<a href="mailto:sbalasa@ucsd.edu" target="_blank"><i class="fa fa-envelope-o icon spacer" aria-hidden="true"></i></a>
+					<a href="https://drive.google.com/file/d/1P9FecosbHnToMR_n1ohxRr7IhD0QX5gl/view?usp=sharing" target="_blank"><i class="fa fa-file-text icon spacer" aria-hidden="true"></i></a>
+				</div>
+			</div>
+		</section>
 
-      <div class=content>
-        <div class="heading">sravya balasa</div>
-        <div class="subheading">developer | photographer | learner</div>
+		<section id="experience" class="inverse">
+			<h2 class="section-title bold">my experience</h2>
+			<div class="container-fluid inverse">
+				<div class="row justify-content-center">
+					<div id="0" class="col-lg-4 card" data-toggle="modal" data-target="#expModal">
+						<div class="center-img">
+							<img class="tableau" src="images/tableau.png">
+						</div>
+						<br/>
+						<h4><a href="https://www.tableau.com/" target="_blank">&nbsp;Tableau&nbsp;</a></h4>
+						<h6>&nbsp;SWE Intern</h6>
+					</div>
+					<div id="1" class="col-lg-4 card" data-toggle="modal" data-target="#expModal">
+						<div class="center-img">	
+							<img class="fb" src="images/fb.png"/>
+						</div>
+						<br>
+						<h4><a href="https://www.facebook.com/careers/" target="_blank">&nbsp;Facebook&nbsp;</a><h4>
+						<h6>&nbsp;SWE Intern</h6>
+					</div>
+					<div id="2" class="col-lg-4 card" data-toggle="modal" data-target="#expModal">
+						<div class="center-img">	
+							<img class="weibel" src="images/weibel.png"/>
+						</div>
+						<br>
+						<h4><a href="https://www.ubicomp.ucsd.edu/" target="_blank">&nbsp;Weibel Lab&nbsp;</a><h4>
+						<h6>&nbsp;HCI Researcher</h6>
+					</div>
+					<div id="3" class="col-lg-4 card" data-toggle="modal" data-target="#expModal">
+						<div class="center-img">
+							<img class="viasat" src="images/viasat.png"/>
+						</div>
+						<br/>
+						<h4><a href="https://www.viasat.com/" target="_blank">&nbsp;Viasat Inc.&nbsp;</a></h4>
+						<h6>&nbsp;SWE Intern</h6>
+					</div>
+					<div id="4" class="col-lg-4 card" data-toggle="modal" data-target="#expModal">
+						<div class="center-img">
+							<img class="almounds" src="images/almounds.png"/>
+						</div>
+						<br/>
+						<h4><a href="https://www.youtube.com/watch?v=66Q7XpXZKKM&feature=youtu.be" target="_blank">&nbsp;Almounds&nbsp;</a></h4>
+						<h6>&nbsp;Backend Lead</h6>
+					</div>
+					<div id="5" class="col-lg-4 card" data-toggle="modal" data-target="#expModal">
+						<div class="center-img">
+							<img class="autograder" src="images/autograder.ico">
+						</div>
+						<br/>
+						<h4><a href="https://autograder.ucsd.edu/login" target="_blank">&nbsp;Autograder&nbsp;</a></h4>
+						<h6>&nbsp;Lead Full-Stack Developer</h6>
+					</div>
+					<div id="6" class="col-lg-4 card" data-toggle="modal" data-target="#expModal">
+						<div class="center-img">
+							<img class="ersp" src="images/ersp.png"/>
+						</div>
+						<br/>
+						<h4><a href="https://ersp.eng.ucsd.edu/" target="_blank">ERSP&nbsp;</a></h4>
+						<h6>Undergraduate Researcher</h6>
+					</div>
+					<div id="7" class="col-lg-4 card" data-toggle="modal" data-target="#expModal">
+						<div class="center-img">
+							<img class="cse" src="images/cse.jpg">
+						</div>
+						<br/>
+						<h4><a href="https://cse.ucsd.edu/undergraduate/readers-and-tutors" target="_blank">UCSD CSE Tutoring&nbsp;</a></h4>
+						<h6>Undergraduate Tutor</h6>
+					</div>
+				</div>
+			</div>
+		</section>
 
-        <div class="socials">
-          <a href=https://github.com/sravyabalasa target=_blank>
-            <img src="img/github.png" class="icon">
-          </a>
-          <a href=https://sravyabalasa.format.com/ target=_blank>
-            <img src="img/photoport.png" class="icon">
-          </a>
-          <a href=https://www.linkedin.com/in/sravyabalasa/ target=_blank>
-            <img src="img/linkedin.png" class="icon">
-          </a>
-        </div>
-      </div>
+		<section id="intro" class="normal">
+			<div class="content">
+				<h2 id="typewriter"></h2>
+			</div>
+		</section>
 
-    </div>
+		<div class="modal fade" id="expModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-lg">
+				<div class="modal-content">
+					<div class="modal-body">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h4 class="bold modal-title">Title</h4>
+						<br/>
+						<h5 class="modal-role">Role</h5>
+						<h5 class="modal-dates">Dates</h5>
+						<br/>
+						<h5 class="modal-description">Description</h5>
+						<br/>
+						<h6 class="modal-tools"></h6>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <div id="projects" class="row">
-        <div class="col-lg-3">
-            <div class="titleproj">almounds</div>
-            <a href="https://youtu.be/66Q7XpXZKKM" target=_blank><img class="projectimg" src="img/almounds.png"></a>
-            <div class="descriptionproj">almond plant application</div>
-        </div>
-        <div class="col-lg-3">
-          <div class="titleproj">noggin login</div>
-          <a href="https://github.com/leestanley/HardHacks2019" target=_blank><img class="projectimg" src="img/nogginlogin.png"></a>
-          <div class="descriptionproj">automated head counter</div>
-        </div>
-        <div class="col-lg-3">
-          <div class="titleproj">neural nets</div>
-          <a href="https://docs.google.com/presentation/d/1H7vI9Fj-Gqx_D_6aAjDFqpBqN6oKKhSIr1wlH7lsjGA/edit?usp=sharing" target=_blank><img class="projectimg" src="img/neurnet.png"></a>
-          <div class="descriptionproj">machine learning classifier</div>
-        </div>
-        <div class="col-lg-3">
-          <div class="titleproj">unravel travel</div>
-          <a href="https://github.com/sravyabalasa/SDHacks2018" target=_blank><img class="projectimg" src="img/unraveltravel.png"></a>
-          <div class="descriptionproj">interactive vacation generator</div>
-        </div>
-    </div>
-
-    <div id="experience" class="container">
-        <div class="row">
-            <div class="col-sm-6 titleexp">Incoming Software Engineering Intern</div>
-            <div class="col-sm-6 exp">June 2021 - September 2021</div>
-            <div class="yearsexp">Tableau (Salesforce)</div>
-        </div>
-
-        <div class="row exptop">
-            <div class="col-sm-6 titleexp">Incoming Software Engineering Intern</div>
-            <div class="col-sm-6 exp">January 2021 - March 2021</div>
-            <div class="yearsexp">Facebook</div>
-        </div>
-
-        <div class="row exptop">
-            <div class="col-sm-6 titleexp">Software Engineering Intern</div>
-            <div class="col-sm-6 exp">June 2020 - September 2020</div>
-            <div class="yearsexp">Viasat, Inc.</div>
-            <div class="descriptionexp"><span class="tools">Tools: </span>Vue.js, HTML5, Bootstrap, CSS3, Javascript, CesiumJS, OpenLayers, Axios</div>
-            <div class="descriptionexp">I redesigned the UI of a satellite coverage builder tool to streamline the user experience. I extended coverage planning tools on a geospatial platform to support 3D satellite visualizations and integrated search and 2D visualization from a suite of satellite databases and NodeJS API.</div>
-        </div>
-
-        <div class="row exptop">
-          <div class="col-sm-6 titleexp">Undergraduate Student Researcher</div>
-          <div class="col-sm-6 exp">September 2019 - June 2020</div>
-          <div class="yearsexp">UCSD CSE Early Research Scholars Program</div>
-          <div class="descriptionexp"><span class="tools">Tools: </span>Python, Keras, Tensorflow, Jupyter, numpy, pandas, scikit-learn</div>
-          <div class="descriptionexp">Developed machine learning models to predict the starting timestamp of a person’s next workout based on their previous workouts to help people better analyze their workout progress. We utilized workout data of 100K users scraped from the fitness app EndoMondo. Feel free to check out our <a href="https://drive.google.com/file/d/1dqqPLysM8Km7VlotUhOBTC1FaaXF8u0w/view?usp=sharing" target=_blank>Project Poster,</a> <a href="https://docs.google.com/document/d/1rWphvJWOu_T1Kv5Tji93toss2nUyF1dVf8vi8LHpXQo/edit?usp=sharing" target='_blank'>State of Research,</a> and <a href="https://docs.google.com/document/d/10VajC25NAa3OQRM1oqoX65C7e1EpBaUkP0zC1yo0i_c/edit?usp=sharing" target=_blank>User Guide/Source Code</a> for more background on our work.</div>  
-        </div>
-
-        <div class="row exptop">
-          <div class="col-sm-6 titleexp">Undergraduate Tutor</div>
-          <div class="col-sm-6 exp">Jan 2019 - Present</div>
-          <div class="yearsexp">UCSD CSE Department</div>
-          <div class="descriptionexp">As a tutor, I host lab hours to guide students in improving code correctness, efficiency of algorithm implementation, and performance. In addition, I lead exam review sessions and develop course material such as exams, homework assignments, and labs. I have tutored for CSE 8A (Introduction to Java & OOP), CSE 12 (Data Structures & Object Oriented Design), CSE 15L (Software Tools & Techniques), and CSE 110 (Software Engineering) with Gary Gillespie and CSE 100 (Advanced Data Structures) with Joe Politz and Niema Moshiri.</div>
-        </div>
-
-        <div class="row exptop">
-          <div class="col-sm-6 titleexp">Lead Full-Stack Developer</div>
-          <div class="col-sm-6 exp">October 2018 - Present</div>
-          <div class="yearsexp">Autograder</div>
-          <div class="descriptionexp"><span class="tools">Tools: </span>Python, Flask, PostgreSQL, React, Javascript, Axios</div>
-          <div class="descriptionexp">I am managing and developing on a team revamping a legacy web application used by 3000+ UCSD CSE students and professors to manage tutor queues and assignments, <a href="https://autograder.ucsd.edu" target=_blank>autograder.ucsd.edu</a>. I am leading frontend development of a scodebase rewrite to provide an easily maintainable and improved UX.</div>
-        </div>
-    </div>
-
-    <div id="interests" class="container">
-      <div class="col-lg-4">
-        <div class="titleint titleinttop">photography</div>
-        <a href="https://www.instagram.com/photoswithsravya" target=_blank><img class=interestsimg width=100% src="img/instagramfeed.jpg"></a>
-        <div class="descriptionint">Ever since picking up a camera in middle school, I've been obsessed. During high school, I opened up my photography business, where I take photos for proms, cotillions, graduation, portraits, you name it. However, I'm more than lucky that it's become more during my journey at UCSD. In the past year, I've worked at a portrait photography studio, joined a fashion magazine at UCSD, <a href="https://issuu.com/trenducsd" target=_blank>TREND</a>, as the photographer, and delved into styled conceptual shoots. Join me on my creative journey through my <a href="https://www.sravyabalasa.com/" target=_blank>photography portfolio</a> and <a href="https://instagram.com/photoswithsravya" target=_blank>Instagram.</a></div>
-      </div>
-      <div class="col-lg-4">
-        <div class="titleint">calligraphy</div>
-        <a href="https://www.sravyabalasa.com/galleries/design" target=_blank><img class=interestsimg width=100% src="img/calligraphy.png"></a>
-        <div class="descriptionint">From a young age, I've written in cursive so, naturally, once I discovered handlettering, I never left. I enjoy creating cards, painting wood rounds, designing posters, taking elaborate notes, drawing every type of abstract doodle or flower, you name it. Not only is it a creative, experimental outlet for me and therapeutic, but I cherish the smile it brings on faces with every gift I create. You can view more of my design work <a href="https://www.sravyabalasa.com/galleries/design" target=_blank>here.</a></div>
-      </div>
-      <div class="col-lg-4">
-        <div class="titleint">reading</div>
-        <div class="descriptionint">I love to read. It started off with inhaling chapter books as a four year old to a couple books a week in my early teens. However, as of late, I've enjoyed reading books just analyzing the human lifestyle in addition to my usual young adult and Harry Potter agenda. Reccomendations: <i>I'll Give You The Sun, The Art of Loving, To Kill a Mockingbird, Jazz, Anna and the French Kiss, Before I Fall, Legend, Little Fires Everywhere</i></div>
-        <div class="titleint">public speaking</div>
-        <div class="descriptionint">I've always enjoyed writing and sharing my thoughts, but only recently did that come to fruition. I dove into public speaking with a goal to make an impact and be more articulate. If you're interested, here's my TEDx talk titled <a href="https://www.youtube.com/watch?v=zokM87jgqaY" target=_blank>"Honest Communication in the Digital Age"</a>. Secondly, here's a speech about <a href="https://www.youtube.com/watch?v=0TfLkYPokPM" target=_blank>"The Truth About Passions"</a>, a topic that I hold very dear with ideas I live by.</div>
-      </div>
-    </div>
-
-    <div id="about">
-      <div class="titleabt">hi, i'm sravya.</div>
-      <div class="descriptionabt">I'm a junior at UC San Diego studying Computer Science and Design, graduating in June 2022. From the products I create to those I mentor, I aim to benefit the lives of others around me. I'm a learner, I'm passionate, I'm an artist, I'm a developer.</div>
-      <div class="descriptionabt">Talk to me about it at <b>sbalasa[@]ucsd[.]edu</b></div>
-    </div>
-  </body>
-
-  <!--I'm currently looking for a Software Engineering Internship for Summer 2021 where I can expand my skills in algorithmic thinking, problem solving, creating, and experience the workflow of industry from start to finish. -->
-
-  <!-- jQuery import -->
-  <script
-    src="https://code.jquery.com/jquery-3.4.1.js"
-    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-    crossorigin="anonymous">
-  </script>
-  <script src="style/js/script.js"></script>
-  <!-- Smooth Scroll: https://www.w3schools.com/howto/howto_css_smooth_scroll.asp -->
-  <script src="style/js/smoothscroll.js"></script>
-
-  <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <!-- Latest compiled JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
+		<script src="js/script.js"></script>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	</body>
 </html>
+
+

@@ -263,6 +263,24 @@ a:hover {
 	transform: none;
 }
 
+.outer-nav {
+	display: flex;
+	justify-content: center;
+}
+.navbar {
+	background: white;
+	z-index: 1000;
+	position: fixed;
+	color: #152238;
+	width: 70%;
+	top: 30px;
+	/* padding-left: 50px;
+	padding-right: 50px; */
+	border-radius: 40px;
+	padding: 15px 30px;
+	filter: drop-shadow(10px 8px 15px #1c1c1c);
+}
+
 
 /* --------------- MEDIA QUERIES -------------------- */
 @media screen and (max-width:414px) {

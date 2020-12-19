@@ -41,7 +41,9 @@ a:hover {
 	color: #152238 !important;  
 	background-position: 0 100%;
 	cursor: pointer;
+	text-decoration: none !important;
 }
+
 
 /* ------------------- IDS ----------------- */
 #home {

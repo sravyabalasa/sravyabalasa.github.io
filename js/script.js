@@ -103,3 +103,37 @@ for (let i = 0; i < cards.length; i++) {
 		}
 	});
 }
+
+// navbar on mobile
+// navbarOpen=false
+// $(document).ready(function () {
+// 	$(".hamburger").click(function() {
+// 		navbarOpen ? $(".navbar").slideUp() : $(".navbar").slideDown()
+// 		navbarOpen = !navbarOpen
+// 	})
+// })
+
+iconColorMap = {
+	"about": "white",
+	"experience": "black"
+}
+
+$('.hamburger').click(function(e){
+	toggleNav()
+});
+
+function toggleNav() {
+	// if (document.getElementById('hamburger').classList.contains('is-active')) {
+	// 	$('html, body').css({
+	// 		overflow: 'auto',
+	// 		height: 'auto'
+	// 	});	  
+	// } else {
+	// $('html, body').css({
+	// 	overflow: 'hidden',
+	// 	height: '100%'
+	// 	});
+	// }
+	document.getElementsByClassName('navbar')[0].classList.toggle('slide');
+	$('.hamburger').toggleClass('is-active');
+}

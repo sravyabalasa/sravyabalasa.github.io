@@ -4,9 +4,6 @@ body {
 	background-color: #152238;
 	color: white;
 }
-html {
-	scroll-behavior: smooth;
-}
 section {
 	padding-left: 10%;
 	padding-right: 10%;
@@ -263,6 +260,8 @@ a:hover {
 	transform: none;
 }
 
+
+/*------------- NAVBAR -------------------*/
 .outer-nav {
 	display: flex;
 	justify-content: center;
@@ -278,6 +277,17 @@ a:hover {
 	padding: 15px 140px;
 	filter: drop-shadow(10px 8px 15px #1c1c1c);
 }
+.navbar-top {
+	width:100%;
+	z-index: 1000;
+	position: fixed;
+}
+.hamburger-right {
+	float:right;
+}
+.hamburger-vis {
+	visibility: hidden;
+}
 
 
 /* --------------- MEDIA QUERIES -------------------- */
@@ -291,15 +301,48 @@ a:hover {
 	h3 {
 		font-size: 0.5rem;
 	}
-	.icon {
-		font-size: 1em;
+	h6 {
+		width: 100%;
 	}
+
 	#experience {
 		padding-top: 20%;
 		padding-bottom: 20%;
 	}
+
+	.icon {
+		font-size: 1em;
+	}
 	.navbar {
-		padding: 15px 10px;
+		background: white;
+		z-index: 100;
+		position: fixed;
+		color: #152238;
+		width: 100% !important;
+		top: 0px;
+		border-radius: 0px;
+		padding: 60% 20%;
+		filter: none;
+		opacity: 0%;
+		height: 100%;
+		transition: 0.5s;
+	}
+	.slide {
+		opacity: 100%;
+		transition: 0.5s;
+	}
+	.name {
+		z-index: 1000;
+		position: absolute;
+		top: 30px;
+		left: 20px;
+		font-size: 2rem;
+	}
+	.hamburger-vis {
+		visibility: visible;
+	}
+	.nav-text {
+		font-size: 2rem;
 	}
 }
 
@@ -322,7 +365,7 @@ a:hover {
 	}
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (min-width:415px) and (max-width: 700px) {
 	.navbar {
 		padding: 15px 30px;
 		width: 80%;	

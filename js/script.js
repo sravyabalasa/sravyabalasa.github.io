@@ -34,15 +34,15 @@ modalData = {
 		'title': 'Tableau Software',
 		'role': "Software Engineering Intern",
 		'dates': 'June 2021 - September 2021',
-		'description': "Coming Soon.",
-		'tools': '',
+		'description': "Engineer on the Metrics Experience Team, developing tools to track your data at a glance.",
+		'tools': 'React, Typescript, Kotlin, Proto',
 	},
 	'1': {
 		'title': 'Facebook',
 		'role': 'Software Engineering Intern',
 		'dates': 'January 2021 - March 2021',
-		'description': "Coding away @ Instagram Stories!",
-		'tools': '',
+		'description': "iOS engineer on Instagram Stories, developing for over 500 million users.",
+		'tools': 'Objective-C, XCode',
 	},
 	'2': {
 		'title': 'Weibel Lab',
@@ -102,38 +102,4 @@ for (let i = 0; i < cards.length; i++) {
 			document.getElementsByClassName('modal-tools')[0].innerHTML = '';	
 		}
 	});
-}
-
-// navbar on mobile
-// navbarOpen=false
-// $(document).ready(function () {
-// 	$(".hamburger").click(function() {
-// 		navbarOpen ? $(".navbar").slideUp() : $(".navbar").slideDown()
-// 		navbarOpen = !navbarOpen
-// 	})
-// })
-
-iconColorMap = {
-	"about": "white",
-	"experience": "black"
-}
-
-$('.hamburger').click(function(e){
-	toggleNav()
-});
-
-function toggleNav() {
-	// if (document.getElementById('hamburger').classList.contains('is-active')) {
-	// 	$('html, body').css({
-	// 		overflow: 'auto',
-	// 		height: 'auto'
-	// 	});	  
-	// } else {
-	// $('html, body').css({
-	// 	overflow: 'hidden',
-	// 	height: '100%'
-	// 	});
-	// }
-	document.getElementsByClassName('navbar')[0].classList.toggle('slide');
-	$('.hamburger').toggleClass('is-active');
 }
